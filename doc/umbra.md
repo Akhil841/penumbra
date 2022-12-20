@@ -4,7 +4,7 @@ C++ has no class hierarchy, the way C# does. If C++ had a class similar to C#'s 
 
 You might be thinking that passing the `PTester` a class argument via templates would solve the problem fairly easily. This would only work if the passed class has a method to compare it to that always has the same name, which is a bit of an annoying restriction to place on a programmer. On top of that, using class arguments would *only* allow the `PTester` to compare certain objects.
 
-Since C++ has no super class, I decided to make my own, the `Umbra`. The reason it's called an umbra is because an umbra is the part of the shadow inside of a penumbra, and togethere they make a full shadow. Similarly, all the `Umbra`s are inside of this penumbras, and both require the other to form a full unit tester.
+Since C++ has no super class, I decided to make my own, the `Umbra`. The reason it's called an umbra is because an umbra is the part of the shadow inside of a penumbra, and together they make a full shadow. Similarly, all the `Umbra`s are inside of this penumbra, and both require the other to form a full unit tester.
 ## Usage notes
 Any class that you wish to use in a `PTester` has to inherit the class `Umbra`. In addition, it must declare the method `bool equals(void* other)` with a custom definition, or else it will use the default `equals()` defined in `penumbra/umbra.h`, which always returns `true`.
 ### Example
