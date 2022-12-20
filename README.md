@@ -2,7 +2,7 @@
 Me: Mom, can we have JUnit?<br><br>
 Mom: No, we have JUnit at home.<br><br>
 JUnit at home:
-#
+
 This isn't meant to be anything complex, it's just the testing framework I made for personal use in C++.
 ## Rationale
 Inspired by Japanese game developers before me (see: Fate/stay night, Metal Gear), I have chosen to name this project after something that sounds cool! More importantly, the word penumbra means "the shadow cast by the earth or moon over an area experiencing a partial eclipse", which is a reference to the shadow that the C++ unit tester worth using, [cppunit](https://github.com/freedesktop/libreoffice-cppunit), casts on this program.<br><br>
